@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-bottom: 2px solid #DBDBDB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    
+}
+header .container{
+    width: 100%;
+    max-width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    display: flex;
+    margin: 34px auto;
+}
+.nav-bar-left{
+    display: flex; 
+}
+.vertical-bar{
+    width: 1px;
+    height: 22px;
+    border-right: 2px solid #DBDBDB;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+input{
+    font-family: roboto;
+    width: 215px;
+    height: 28px;   
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+.nav-bar-right{ 
+    display: flex;
+}
+.icons-nav-bar{
+    margin-left: 22px;
+    height: 22px;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 614px;
+}
+.stories{
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    align-items: center;
+    display: flex;
+    padding: 0 18px;
+    overflow: hidden;
+    position: relative;
+
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0;
+    margin-right: 14px;
+   
+}
+.story .imagem{
+    background-image: url('./imagens/stories_background\ 1.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 66px ;
+    
+}
+.story .usuario{
+    text-align: center;
+}
+.seta{
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    background: #FFFFFF;
+    color: #DBDBDB;
+}
+.publi-1{
+    width: 614px;
+    height: 750px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin:  24px auto;
+    display: flex;
+    flex-direction: column;
+}
+.top-bar-publi-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-publi-1{
+    display: flex;
+    align-items: center;
+    border: 1px solid #EFEFEF;
+    
+}
+.profile-publi-1 img{
+    width: 32px;
+    height: 32px;
+    margin: 15px 15px 13px 17px;
+}
+.profile-publi-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+.info{
+    margin: 23px 17px;
+}
+
+.bottom-bar-publi-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.interaction-bar-publi-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.interaction-photo{
+    margin-left: 17px;
+    margin-top: 12px;
+}
+.img-fav-publi-1{
+    margin: 14px 17px;
+}
+.info-bottom-bar-publi-1{
+    display: flex;
+    align-items: center;
+
+}
+.buttom-publi-1{
+    justify-content: center;
+    display: flex;
+}
+.info-bottom-bar-publi-1 img{
+    margin: 13px 5px 14px 17px;
+}
+.info-bottom-bar-publi-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+.info-bottom-bar-publi-1 strong{
+    font-weight: bold;
+}
+.nav-bottom-bar{
+    width: 612px;
+    height: 54px;
+    border: 1px solid #DBDBDB;
+    justify-content: space-between;
+    align-items: center;
+}
+.column-2{
+    width: 300px;
+    height: 700px;
+    margin-left: 29px;
+    margin-top: 30px;
+    
+}
+.profile{  
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.profile img{
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;
+}
+.maxverstappen1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+.max-Verstappen{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8E8E8E;
+}
+.suggestion-section{
+    display: flex;
+    flex-direction: column;
+}
+.suggestion-for-you{
+    margin-bottom: 18px;
+}
+.sugestao{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+    
+}
+.ver-tudo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    
+}
+.suggestion-for-you{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile-suggestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.profile-follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-follow img{
+    width: 32px;
+    height: 32px;
+    margin-right: 11px;
+}
+.redbullracing{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+.segue-voce{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+
+}
+.seguir{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+}
+.help{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+    margin-top: 82px;
+}
+.baseboard{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+    margin-top: 18px;
+}
+@media (max-width: 935px){
+    .column-2{
+        display: none   ;
+    }
+    .nav-bar-left{
+        margin-left: 22px;
+    }
+    .nav-bar-right{
+        margin-right: 19px;
+    } 
+}
+@media (min-width: 614px) {
+    .nome-instagram-mobile{
+        display: none;
+    }
+    .nav-bottom-bar{
+        display: none;
+    }
+}
+@media (max-width: 613px){
+    .nome-instagram{
+        display: none;
+    }
+    .vertical-bar{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    .remove-mobile{
+        display: none;
+    }
+    
+    
+}
